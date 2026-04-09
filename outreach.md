@@ -28,10 +28,22 @@ menu_order: 4
 ## Events
 
 <div class="event-list" markdown="1">
+{% assign current_date = "" %}
 {% for event in site.data.events %}
-<div class="event-item">
-<span class="event-date">{{ event.date }}</span>
+{% if event.date != current_date %}
+{% assign current_date = event.date %}
+{% assign parts = event.date | split: ' ' %}
+{% assign month = parts[0] %}
+{% assign year = parts[1] %}
+<div class="event-item year-start">
+<span class="event-date">{{ year }}, {{ month }}</span>
 <span class="event-text">{{ event.title }}, {{ event.location }}</span>
 </div>
+{% else %}
+<div class="event-item">
+<span class="event-date"></span>
+<span class="event-text">{{ event.title }}, {{ event.location }}</span>
+</div>
+{% endif %}
 {% endfor %}
 </div>
