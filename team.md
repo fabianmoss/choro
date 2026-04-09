@@ -5,11 +5,11 @@ layout: page
 
 ## Project lead
 
-Fabian C. Moss 
+- Fabian C. Moss 
 
 ## Research Assistant
 
-Mauro Orsini Windholz
+- Mauro Orsini Windholz
 
 ## Student Assistants 
 
