@@ -10,7 +10,7 @@ menu_order: 2
 ### Project Lead
 - [Fabian C. Moss](https://www.fabian-moss.de/)
 
-### Research Assistant
+### Research Associate
 - [Mauro Orsini Windholz](https://www.musikwissenschaft.uni-wuerzburg.de/team/windholz)
 
 ### Student Assistants
