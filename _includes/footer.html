@@ -1,19 +1,26 @@
 <footer class="site-footer h-card">
   <data class="u-url" href="{{ "/" | relative_url }}"></data>
   <div class="wrapper">
-    <div class="footer-col-wrapper">
+    <div class="footer-main">
       <div class="footer-col footer-col-1">
-        <p class="p-name footer-title">{{ site.title | escape }}</p>
-        <p><a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
-        {%- if site.github_username -%}
-        <p><a href="https://github.com/{{ site.github_username }}" target="_blank"><svg class="svg-icon"><use xlink:href="{{ "/assets/minima-social-icons.svg#github" | relative_url }}"></use></svg> {{ site.github_username }}</a></p>
-        {%- endif -%}
+        <p class="footer-title">{{ site.title | escape }}</p>
+        <p class="footer-affiliation">JMU Würzburg, Institute for Music Research & <br> Zentrum für Philologie und Digitalität</p>
+        <p class="footer-contact">Contact: <a href="mailto:{{ site.email }}">{{ site.email }}</a>{%- if site.github_username -%} · <a href="https://github.com/{{ site.github_username }}" target="_blank"><svg class="svg-icon"><use xlink:href="{{ "/assets/minima-social-icons.svg#github" | relative_url }}"></use></svg> {{ site.github_username }}</a>{%- endif -%}</p>
       </div>
       <div class="footer-col footer-col-2 footer-logo">
-        <a href="https://www.uni-wuerzburg.de" target="_blank">
-          <img src="{{ "/static/uni-wuerzburg.png" | relative_url }}" alt="Julius-Maximilians-Universität Würzburg">
+        <a href="https://www.uni-wuerzburg.de/zpd/" target="_blank" title="Zentrum für Philologie und Digitalität">
+          <img src="{{ "/static/zpd-logo.png" | relative_url }}" alt="ZPD – Zentrum für Philologie und Digitalität" class="logo-zpd">
+        </a>
+        <a href="https://www.uni-wuerzburg.de" target="_blank" title="Julius-Maximilians-Universität Würzburg">
+          <img src="{{ "/static/uni-wuerzburg.png" | relative_url }}" alt="Julius-Maximilians-Universität Würzburg" class="logo-jmu">
         </a>
       </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer-legal">
+        <a href="{{ "/imprint/" | relative_url }}">Imprint &amp; Privacy</a>
+      </div>
+      <p class="footer-copyright">&copy; 2026 {{ site.title | escape }}</p>
     </div>
   </div>
 </footer>
