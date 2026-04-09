@@ -1,0 +1,3 @@
+[submodule "choro-melodies"]
+	path = choro-melodies
+	url = git@github.com:fabianmoss/choro-melodies
