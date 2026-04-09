@@ -1,6 +1,6 @@
 <header class="site-header" role="banner">
   <div class="wrapper">
-    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
+    <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape | replace: "of Brazilian", "<wbr>of Brazilian" }}</a>
     <nav class="site-nav">
       {%- assign sorted_pages = site.pages | where_exp: "item", "item.menu_order" | sort: "menu_order" -%}
       {%- for my_page in sorted_pages -%}
