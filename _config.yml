@@ -31,9 +31,18 @@ github_username: fabianmoss
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 minima:
   skin: custom
+
+# SEO settings
+twitter:
+  username: fabianmoss
+social:
+  name: "Computational Analysis of Brazilian Choro"
+  links:
+    - https://github.com/fabianmoss
 
 # Exclude from processing.
 # The following items will not be processed, by default.
