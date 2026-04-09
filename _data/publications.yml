@@ -1,5 +1,18 @@
-- authors: "Moss, F. C., Windholz, M. O., & McLeod, A."
-  title: "Automatic Harmonization of Choro Melodies Using Machine Learning"
-  journal: "Journal of the Society for Musicology"
-  year: 2025
-  link: "#"
+- authors: "Orsini Windholz, M., Sears, D., & Moss, F. C."
+  year: 2026 #  "accepted"
+  title: "Harmonic patterns in Brazilian choro, Western classical, and Anglophone popular music: a data-driven comparison"
+  journal: "Brazilian Journal of Music and Mathematics"
+- authors: "Orsini Windholz, M. & Moss, F. C."
+  year: 2026
+  title: "Mapping the space of harmonic cadences between brazilian choro, jazz and anglophone popular music"
+  journal: "In J. Neumann (Ed.), Proceedings of the 13th international conference on digital libraries for musicology. ACM, New York, NY"
+- authors: "Moss, F. C., Fernandes de Souza, W., & Rohrmeier, M. A."
+  year: 2023
+  title: "Choro Songbook Corpus"
+  journal: "Zenodo"
+  link: "https://doi.org/10.5281/zenodo.10256567"
+- authors: "Moss, F. C., Souza, W. F., & Rohrmeier, M."
+  year: 2020
+  title: "Harmony and form in Brazilian Choro: A corpus-driven approach to musical style analysis"
+  journal: "Journal of New Music Research, 49(5), 416–437"
+  link: https://doi.org/10.1080/09298215.2020.1797109

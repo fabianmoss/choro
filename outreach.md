@@ -5,33 +5,33 @@ permalink: /outreach/
 menu_order: 4
 ---
 
-<div class="outreach-section">
-  <h2>Publications</h2>
-  
-  <div class="publication-list">
-    {% for pub in site.data.publications %}
-    <div class="publication-item">
-      <p class="pub-authors">{{ pub.authors }}</p>
-      <p class="pub-title">{{ pub.title }}</p>
-      <p class="pub-details">{{ pub.journal }}{% if pub.year %}, {{ pub.year }}{% endif %}</p>
-      {% if pub.link %}<p class="pub-link"><a href="{{ pub.link }}" target="_blank">Link</a></p>{% endif %}
-    </div>
-    {% endfor %}
-  </div>
+## Publications
+
+<div class="publication-list" markdown="1">
+{% assign current_year = "" %}
+{% for pub in site.data.publications %}
+{% if pub.year != current_year %}
+{% assign current_year = pub.year %}
+<div class="publication-item year-start">
+<span class="pub-year">{{ pub.year }}</span>
+<span class="pub-citation">{{ pub.authors }} ({{ pub.year }}). <em>{{ pub.title }}</em>. {{ pub.journal }}{% if pub.link %} — <a href="{{ pub.link }}" target="_blank">Link</a>{% endif %}</span>
+</div>
+{% else %}
+<div class="publication-item">
+<span class="pub-year"></span>
+<span class="pub-citation">{{ pub.authors }} ({{ pub.year }}). <em>{{ pub.title }}</em>. {{ pub.journal }}{% if pub.link %} — <a href="{{ pub.link }}" target="_blank">Link</a>{% endif %}</span>
+</div>
+{% endif %}
+{% endfor %}
 </div>
 
-<div class="outreach-section">
-  <h2>Events</h2>
-  
-  <div class="event-list">
-    {% for event in site.data.events %}
-    <div class="event-item">
-      <span class="event-date">{{ event.date }}</span>
-      <div class="event-content">
-        <p class="event-title">{{ event.title }}</p>
-        <p class="event-location">{{ event.location }}</p>
-      </div>
-    </div>
-    {% endfor %}
-  </div>
+## Events
+
+<div class="event-list" markdown="1">
+{% for event in site.data.events %}
+<div class="event-item">
+<span class="event-date">{{ event.date }}</span>
+<span class="event-text">{{ event.title }}, {{ event.location }}</span>
+</div>
+{% endfor %}
 </div>

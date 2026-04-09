@@ -1,6 +1,12 @@
 ---
 layout: default
 ---
+{% if page.header_image %}
+<figure class="header-figure">
+  <img src="{{ page.header_image | relative_url }}" alt="{{ page.header_caption | default: '' }}">
+  {% if page.header_caption %}<figcaption>{{ page.header_caption }}</figcaption>{% endif %}
+</figure>
+{% endif %}
 <div class="home">
   {{ content }}
 </div>
