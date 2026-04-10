@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Funding for research trip granted"
-date:   2025-04-15 10:40:06 +0200
+date:   2024-01-24 10:40:06 +0200
 ---
 
 We are more than happy to announce that the Funding Programme for 

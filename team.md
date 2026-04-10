@@ -34,7 +34,7 @@ menu_order: 2
 
 ### Cooperating Institutions
 - [Casa do Choro, Rio de Janeiro](https://casadochoro.com.br/)
-- [Chorinho e.V., Nürnberg](https://www.chorinho.de/)
+- [Chorinho e. V., Nürnberg](https://www.chorinho.de/)
 </div>
 
 </div>
