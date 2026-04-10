@@ -1,15 +1,20 @@
 [submodule "choro-melodies"]
 	path = choro-melodies
 	url = git@github.com:fabianmoss/choro-melodies
+  branch = main
 [submodule "choro-harmonies"]
 	path = choro-harmonies
 	url = git@github.com:fabianmoss/choro-harmonies
+  branch = main
 [submodule "choro-scrape"]
 	path = choro-scrape
 	url = git@github.com:fabianmoss/choro-scrape
+  branch = main
 [submodule "choro-model"]
 	path = choro-model
 	url = git@github.com:fabianmoss/choro-model
+  branch = main
 [submodule "choro-audio"]
 	path = choro-audio
 	url = git@github.com:fabianmoss/choro-audio
+  branch = main
