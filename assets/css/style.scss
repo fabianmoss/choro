@@ -680,6 +680,16 @@ a:hover {
     flex-direction: column;
     gap: 2rem;
   }
+
+  .pagination {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .pagination-spacer {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {
