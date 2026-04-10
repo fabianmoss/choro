@@ -304,6 +304,35 @@ a:hover {
   margin-left: auto;
 }
 
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--color-border);
+}
+
+.pagination a {
+  font-family: var(--font-heading);
+  font-size: 1rem;
+  color: var(--color-accent);
+}
+
+.pagination a:hover {
+  color: var(--color-accent-light);
+}
+
+.pagination-info {
+  font-size: 0.9rem;
+  color: var(--color-text-light);
+  text-align: center;
+}
+
+.pagination-spacer {
+  width: 80px;
+}
+
 .page {
   max-width: 680px;
 }
