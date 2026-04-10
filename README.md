@@ -1,6 +1,12 @@
 # choro
 Main repository for Computational Analysis of Brazilian Choro
 
+## updating 
+
+To bring all repos (submodules, see below) up to date, run 
+
+`git submodule update --remote [repo name]`
+
 ## repos (submodules)
 
 - [choro-melodies](https://github.com/fabianmoss/choro-melodies): transcriptions of early choro melodies
