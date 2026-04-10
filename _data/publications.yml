@@ -2,17 +2,41 @@
   year: "accepted"
   title: "Harmonic patterns in Brazilian choro, Western classical, and Anglophone popular music: a data-driven comparison"
   journal: "Brazilian Journal of Music and Mathematics"
+  type:
+  editor:
+  publisher:
+  volume:
+  number:
+  pages:
 - authors: "Orsini Windholz, M. & Moss, F. C."
   year: 2026
   title: "Mapping the space of harmonic cadences between brazilian choro, jazz and anglophone popular music"
-  journal: "In J. Neumann (Ed.), Proceedings of the 13th international conference on digital libraries for musicology. ACM, New York, NY"
+  journal: "Proceedings of the 13th international conference on digital libraries for musicology"
+  type: inproceedings
+  editor: "Neumann, J."
+  publisher: "ACM, New York, NY"
+  volume:
+  number:
+  pages:
 - authors: "Moss, F. C., Fernandes de Souza, W., & Rohrmeier, M. A."
   year: 2023
   title: "Choro Songbook Corpus"
   journal: "Zenodo"
+  type: dataset
+  editor:
+  publisher:
+  volume:
+  number:
+  pages:
   link: "https://doi.org/10.5281/zenodo.10256567"
 - authors: "Moss, F. C., Souza, W. F., & Rohrmeier, M."
   year: 2020
   title: "Harmony and form in Brazilian Choro: A corpus-driven approach to musical style analysis"
-  journal: "Journal of New Music Research, 49(5), 416–437"
+  journal: "Journal of New Music Research"
+  type: article
+  editor:
+  publisher:
+  volume: 49
+  number: 5
+  pages: "416–437"
   link: https://doi.org/10.1080/09298215.2020.1797109

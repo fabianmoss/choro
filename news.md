@@ -12,13 +12,6 @@ menu_order: 3
     <h3>
       <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </h3>
-    {%- if post.categories -%}
-    <p class="post-categories">
-      {%- for category in post.categories -%}
-      <span class="category-tag">{{ category }}</span>
-      {%- endfor -%}
-    </p>
-    {%- endif -%}
     <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
   </li>
   {%- endfor -%}

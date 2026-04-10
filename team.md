@@ -8,29 +8,33 @@ menu_order: 2
 
 <div class="team-col" markdown="1">
 ### Project Lead
-- [Fabian C. Moss](https://www.fabian-moss.de/)
+
+- [Fabian C. Moss, JMU](https://www.fabian-moss.de/)
 
 ### Research Associate
-- [Mauro Orsini Windholz](https://www.musikwissenschaft.uni-wuerzburg.de/team/windholz)
+
+- [Mauro Orsini Windholz, JMU](https://www.musikwissenschaft.uni-wuerzburg.de/team/windholz)
 
 ### Student Assistants
-- Jason Ackermann
-- Julius Leickert
-- Tim Schwander
+- Jason Ackermann, JMU
+- Julius Leickert, JMU
+- Tim Schwander, JMU
 </div>
 
 <div class="team-col" markdown="1">
 ### Scientific Advisors
-- Andrew McLeod
-- Pedro Aragão
+
+- [Andrew McLeod, Fraunhofer IDMT](https://apmcleod.github.io/)
+- [Pedro Aragão, UNIRIO](https://www.unirio.br/cla/ivl/corpo-docente/pedro-aragao)
 
 ### Artistic Advisors
-- Paulo Aragão
+
+- [Paulo Aragão, Casa do Choro](http://www.pauloaragao.com.br/trajetoria)
 - Willian Fernandes Souza
 
 ### Cooperating Institutions
-- Casa do Choro, Rio de Janeiro
-- Chorinho e.V., Nürnberg
+- [Casa do Choro, Rio de Janeiro](https://casadochoro.com.br/)
+- [Chorinho e.V., Nürnberg](https://www.chorinho.de/)
 </div>
 
 </div>
