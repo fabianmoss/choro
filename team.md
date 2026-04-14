@@ -16,7 +16,7 @@ menu_order: 2
 - [Mauro Orsini Windholz, JMU](https://www.musikwissenschaft.uni-wuerzburg.de/team/windholz)
 
 ### Student Assistants
-- Jason Ackermann, JMU
+- [Jason Ackermann, JMU](https://jasonvla.github.io/)
 - Julius Leickert, JMU
 - Tim Schwander, JMU
 </div>
