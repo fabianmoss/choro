@@ -29,7 +29,7 @@ menu_order: 2
 
 <div class="research-section">
   <figure class="research-figure">
-    <img src="{{ "/static/choro-publication-figure.jpg" | relative_url }}" alt="Figure from Harmony and Form in Brazilian Choro">
+    <img src="{{ "/static/choro-publication-figure.png" | relative_url }}" alt="Figure from Harmony and Form in Brazilian Choro">
     <figcaption>From Moss, Souza, &amp; Rohrmeier (2020), <em>Journal of New Music Research</em></figcaption>
   </figure>
   <div class="research-text">
