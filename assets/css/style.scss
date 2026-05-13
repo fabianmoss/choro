@@ -159,6 +159,13 @@ a:hover {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.header-figure img:hover {
+  transform: scale(1.02);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
 }
 
 .header-figure figcaption {
@@ -630,6 +637,13 @@ a:hover {
   border-radius: 4px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
   display: block;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.research-figure img:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.18);
 }
 
 .research-figure figcaption {
