@@ -12,7 +12,7 @@ menu_order: 2
   </figure>
   <div class="research-text">
     <h2>Transcription of Historical Melodies</h2>
-    <p>The Instituto Casa do Choro (ICC) in Rio de Janeiro holds over 28,000 catalogued scores — the largest choro archive in the world. Most of these historical scores lack chord symbols, rendering them inaccessible to modern musicians who rely on lead-sheet notation. This research strand develops Optical Music Recognition (OMR) workflows to digitize and encode these scores into machine-readable formats, preserving the cultural heritage of choro and unlocking a vast corpus for computational analysis.</p>
+    <p>The Instituto Casa do Choro (ICC) in Rio de Janeiro holds over 28,000 catalogued scores — the largest choro archive in the world. Many of these historical scores have been edited by ICC, but are not machine-readble and thus inaccessible for computational research. Our team works on manuall transcribing many early choro manuscripts, which will serve for analysis and the development of Opical Music Recogition (OMR) techniques, preserving the cultural heritage of choro and unlocking a vast corpus for computational modeling.</p>
   </div>
 </div>
 
@@ -23,7 +23,7 @@ menu_order: 2
   </figure>
   <div class="research-text">
     <h2>Automatic Chord Estimation</h2>
-    <p>Experts at ICC manually annotate chord symbols for choro melodies — a time-consuming process requiring deep stylistic knowledge. This research explores AI-driven approaches to automatic harmonization, training machine learning models on existing harmonizations to generate chord annotations for unprocessed archive material. Beyond technical development, the project critically evaluates the reception of such AI tools by the choro community, addressing questions of trust, usability, and cultural fit.</p>
+    <p>Experts at ICC manually annotate chord symbols for choro melodies — a time-consuming process requiring deep stylistic knowledge. This research explores AI-driven approaches to automatic harmonization, training machine-learning models on existing harmonizations to generate chord annotations for unprocessed archive material. Beyond technical development, the project critically evaluates the reception of such AI tools by the choro community, addressing questions of trust, usability, and cultural fit.</p>
   </div>
 </div>
 
