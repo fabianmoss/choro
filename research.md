@@ -11,7 +11,7 @@ menu_order: 2
     <figcaption>"Chorinho em Mi menor" by Altamiro Carrilho, handwritten manuscript, Acervo Casa do Choro</figcaption>
   </figure>
   <div class="research-text">
-    <h2>Transcription of Historical Melodies</h2>
+    <h2>Transcription of Melodies</h2>
     <p>The Instituto Casa do Choro (ICC) in Rio de Janeiro holds over 28,000 catalogued scores — the largest choro archive in the world. Many of these historical scores have been edited by ICC, but are not machine-readble and thus inaccessible for computational research. Our team works on manuall transcribing many early choro manuscripts, which will serve for analysis and the development of Opical Music Recogition (OMR) techniques, preserving the cultural heritage of choro and unlocking a vast corpus for computational modeling.</p>
   </div>
 </div>
@@ -29,8 +29,8 @@ menu_order: 2
 
 <div class="research-section">
   <figure class="research-figure">
-    <img src="{{ "/static/choro-publication-figure.png" | relative_url }}" alt="Figure from Harmony and Form in Brazilian Choro">
-    <figcaption>From Moss, Souza, &amp; Rohrmeier (2020), <em>Journal of New Music Research</em></figcaption>
+    <img src="{{ "/static/choro-publication-figure.png" | relative_url }}" alt="Characteristic choro harmonies relative to Classical and Pop-rock music">
+    <figcaption>From Windhoz, Sears, & Moss (2026). <em>Brazilian Journal of Music and Mathematics</em></figcaption>
   </figure>
   <div class="research-text">
     <h2>Computational Analysis</h2>

@@ -623,7 +623,7 @@ a:hover {
   margin: 3rem 0;
 }
 
-.research-section:nth-child(even) {
+.research-section:nth-child(uneven) {
   flex-direction: row-reverse;
 }
 
