@@ -699,8 +699,8 @@ a:hover {
   }
 
   .research-section,
-  .research-section:nth-child(even) {
-    flex-direction: column;
+  .research-section:nth-child(odd) {
+    flex-direction: column-reverse;
   }
 
   .research-figure {
