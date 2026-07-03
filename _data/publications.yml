@@ -3,8 +3,6 @@
   title: "Harmonic patterns in Brazilian choro, Western classical, and Anglophone popular music: a data-driven comparison"
   journal: "Brazilian Journal of Music and Mathematics"
   type: article
-  editor:
-  publisher:
   volume: 10
   number: 1
   pages: "54-71"
@@ -16,9 +14,7 @@
   type: inproceedings
   editor: "Neumann, J."
   publisher: "ACM, New York, NY"
-  volume:
-  number:
-  pages:
+  pages: "1-9"
   link: "https://doi.org/10.1145/3815723.3815724"
 - authors: "Moss, F. C., Fernandes de Souza, W., & Rohrmeier, M. A."
   year: 2023
