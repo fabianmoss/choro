@@ -5,7 +5,7 @@
 [submodule "choro-harmonies"]
 	path = choro-harmonies
 	url = git@github.com:fabianmoss/choro-harmonies
-  branch = main
+  branch = musicxml
 [submodule "choro-scrape"]
 	path = choro-scrape
 	url = git@github.com:fabianmoss/choro-scrape
@@ -17,4 +17,8 @@
 [submodule "choro-audio"]
 	path = choro-audio
 	url = git@github.com:fabianmoss/choro-audio
+  branch = main
+[submodule "choro-metadata"]
+	path = choro-metadata
+	url = https://github.com/fabianmoss/choro-metadata
   branch = main
