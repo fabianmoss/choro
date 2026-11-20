@@ -18,3 +18,9 @@
 	path = choro-audio
 	url = git@github.com:fabianmoss/choro-audio
   branch = main
+[submodule "choro-compression"]
+	path = choro-compression
+	url = git@github.com:fabianmoss/choro-compression
+[submodule "choro-expansions"]
+	path = choro-expansions
+	url = git@github.com:fabianmoss/choro-expansions
