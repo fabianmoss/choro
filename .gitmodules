@@ -21,9 +21,11 @@
 [submodule "choro-compression"]
 	path = choro-compression
 	url = git@github.com:fabianmoss/choro-compression
+  branch = main
 [submodule "choro-expansions"]
 	path = choro-expansions
 	url = git@github.com:fabianmoss/choro-expansions
+  branch = main
 [submodule "choro-metadata"]
 	path = choro-metadata
 	url = https://github.com/fabianmoss/choro-metadata
