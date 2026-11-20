@@ -3,10 +3,3 @@ _site
 .jekyll-cache
 .jekyll-metadata
 vendor
-
-# Submodules
-choro-audio/
-choro-melodies/
-choro-model/
-choro-scrape/
-choro-harmonies/

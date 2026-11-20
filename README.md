@@ -1,7 +1,7 @@
 # choro
 Main repository for Computational Analysis of Brazilian Choro
 
-## repos (submodules)
+## related repositories
 
 - [choro-melodies](https://github.com/fabianmoss/choro-melodies): transcriptions of early choro melodies
 - [choro-harmonies](https://github.com/fabianmoss/choro-harmonies): inference of harmonic annotations for choro melodies

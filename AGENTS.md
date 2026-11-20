@@ -11,8 +11,7 @@ This is a **Jekyll website** for the Computational Analysis of Brazilian Choro r
 
 ## Submodules
 
-This repo references 5 independent GitHub submodules:
-- `choro-melodies`, `choro-harmonies`, `choro-scrape`, `choro-model`, `choro-audio`
+None. This branch builds on its own. Research data lives in the main branch of fabianmoss/choro.
 
 ## Build Commands
 
